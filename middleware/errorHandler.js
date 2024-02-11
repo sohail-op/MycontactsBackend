@@ -44,10 +44,7 @@ const errorHandler = (err, req, res, next) => {
       break;
 
     default:
-      console.log(
-        "No Error, Every Thing Working Fine",
-        constant.VALIDATION_ERROR
-      );
+      console.log("No Error, Every Thing Working Fine");
 
       break;
   }
